@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .top{
+            width: 100%;
+            height: 6%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            background-image: url(./娅top.png);
+            background-size: cover;
+            background-position: 130px -350px;
+            /* position: fixed; */
+          
+        }
+        .top a{
+            font-size: 36px;
+            width: 100%;
+            height: 100%;
+        }
+        a{
+        text-decoration: none;
+        color: black;
+        }
+        .top div{
+            /* height: 65%; */
+            background-color: aliceblue;
+            opacity: 0.5;
+            /* padding-top: 11%; */
+            text-align: center;
+        }
+        .top div:hover{
+        background-color: rgb(238, 161, 191);
+        opacity: 1;
+        box-shadow: 4px 4px 8px;
+        }
+        .main{
+            width: 100%;
+            height: 100vw;
+            background-image: url(./娅蝴蝶.jpg);
+            background-size: cover;
+            position: relative;
+            top: 6%;
+            color: aliceblue;
+        }
+        .liuyan{
+            width: 20%;
+            background-color: rgb(140, 102, 49);
+            border-radius: 20%;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: relative;
+            top: 40px;
+            left: 47px;
+        }
+        .contant{
+            width: 20%;
+            background-color: rgb(140, 102, 49);
+            border-radius: 20%;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: relative;
+            top: 900px;
+            left: 47px;
+        }
+        input{
+            width: 30%;
+            font-size: 40px;
+     
+           
+            border-radius: 20%;
+            letter-spacing: 10px;
+            text-align: center;
+            
+        }
+        #name{
+            position: absolute;
+            top: 160px;
+            left: 47px;
+        }
+        #lainxi{
+            position: absolute;
+            top: 250px;
+            left: 47px;
+        }
+        #liuyan{
+            width: 70%;
+            height: 500px;
+            border-radius: 5%;
+            position: absolute;
+            top: 340px;
+            left: 47px;
+        }
+        button{
+            width: 4%;
+            height: 4%;
+            background-color: rgb(140, 102, 49);
+            position: absolute;
+            top: 580px;
+            left: 1300px;
+        }
+        .contantdiv{
+         width: 100%;
+         position: relative;
+         top: 1000px;
+         font-size: 36px;
+         text-align: center;
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+
+        }
+        .contantdiv div{
+        
+            background-color: rgb(70, 20, 116);
+        }
+    </style>
+</head>
+<body>
+ <div class="wap">
+    <div class="top">
+        <div class="homebox"> <a href="./个人博客.html" id="home" target="_blank" id="article">首页</a></div>
+        <div class="albumbox"><a href="./专辑.html" id="album" target="_blank" id="article">专辑</a></div>
+        <div class="articlebox"><a href="./博文.html" target="_blank" id="article">博文</a></div>
+        <div class="contactbox"><a href="./联系.html" id="contact">联系我~</a></div> 
+        </div>
+        <div class="main">
+            <div class="liuyan">留言板</div>
+            <input type="text" placeholder="昵 称" id="name">
+            <input type="text" placeholder="联系方式" id="lainxi">
+            <input type="text" placeholder="留言" id="liuyan">
+            <button>提交</button>
+            <div class="contant">联系我</div>
+            <div class="contantdiv">
+                <div class="email">email: <br>xxxxx </div>
+                <div class="ins">instagram: <br> Oliva Rodrigo</div>
+                <div class="twitter">twitter: <br> Oliva Rodrigo</div>
+            </div>
+        </div>
+ </div>
+</body>
+</html>
